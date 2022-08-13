@@ -10,5 +10,5 @@ Some of the text messages are long strings of "A" and long strings of "F" and th
 
 All transmissions are on GMRS Channel 04.
 
-Submit a pull request with instructions if you know how to decode these, they look like some variant of a squelch code followed by an FSK burst of some sort to me.  URH doesn't immediately identify it, but I'm pretty sure that's what it is.  
+Submit a pull request with instructions if you know how to decode these, they look like some variant of a squelch code followed by a PSK burst on a 33khz carrier to me.  Each bit is 250 microseconds long.   
 
