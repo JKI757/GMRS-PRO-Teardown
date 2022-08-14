@@ -33,12 +33,12 @@
   </device_conf>
   <simulator_rx_conf/>
   <simulator_tx_conf/>
-  <signal name="BBD_0003_converted" filename="BBD_0003_converted.C16" samples_per_symbol="100" center="0" center_spacing="1" tolerance="5" noise_threshold="0.0166" noise_minimum="-0.011737972567696688" noise_maximum="0.011737972567696688" modulation_type="FSK" sample_rate="2000000.0" pause_threshold="8" message_length_divisor="1" bits_per_symbol="1" costas_loop_bandwidth="0.1">
+  <signal name="BBD_0001_converted" filename="BBD_0001_converted.C16" samples_per_symbol="256" center="0" center_spacing="1" tolerance="5" noise_threshold="0.0175" noise_minimum="-0.012374368670764581" noise_maximum="0.012374368670764581" modulation_type="PSK" sample_rate="2000000.0" pause_threshold="8" message_length_divisor="1" bits_per_symbol="1" costas_loop_bandwidth="0.1">
     <messages/>
   </signal>
-  <open_file name="BBD_0003_converted.C16" position="0"/>
+  <open_file name="BBD_0001_converted.C16" position="0"/>
   <group name="New Group" id="0">
-    <cf_protocol filename="BBD_0003_converted.C16"/>
+    <cf_protocol filename="BBD_0001_converted.C16"/>
   </group>
   <protocol>
     <decodings>
@@ -50,7 +50,7 @@
     </decodings>
     <participants/>
     <messages>
-      <message message_type_id="a06f579c-7908-4994-bc50-47d23b46dbb3" modulator_index="0" pause="376605" timestamp="1660269331.0098891" decoding_index="0"/>
+      <message message_type_id="a06f579c-7908-4994-bc50-47d23b46dbb3" modulator_index="0" pause="7009" timestamp="1660436030.810441" decoding_index="0"/>
     </messages>
     <message_types>
       <message_type name="Default" id="a06f579c-7908-4994-bc50-47d23b46dbb3" assigned_by_ruleset="0" assigned_by_logic_analyzer="0">
