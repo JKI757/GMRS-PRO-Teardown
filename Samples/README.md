@@ -10,5 +10,8 @@ Some of the text messages are long strings of "A" and long strings of "F" and th
 
 All transmissions are on GMRS Channel 04.
 
-Submit a pull request with instructions if you know how to decode these, they look like some variant of a squelch code followed by a PSK burst on a 33khz carrier to me.  Each bit is 250 microseconds long.   
+Submit a pull request with instructions if you know how to decode these, they look like some variant of a squelch code followed by a PSK burst on a 33khz carrier to me.  Each bit is 250 microseconds or 256 samples long for use with URH.
+
+The hex captures file lists the encoded hex bytes in the data for each capture.
+
 
