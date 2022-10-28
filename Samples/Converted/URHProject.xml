@@ -1,0 +1,115 @@
+<?xml version="1.0" ?>
+<UniversalRadioHackerProject description="" collapse_project_tabs="0" modulation_was_edited="0" broadcast_address_hex="ffff">
+  <modulators>
+    <modulator carrier_freq_hz="40000.0" carrier_amplitude="1.0" carrier_phase_deg="0.0" samples_per_symbol="100" name="Modulator" gauss_bt="0.5" gauss_filter_width="1.0" sample_rate="None" modulation_type="ASK" index="0" parameters="0.0,100.0" bits_per_symbol="1"/>
+  </modulators>
+  <device_conf>
+    <adaptive_noise>True</adaptive_noise>
+    <apply_dc_correction>True</apply_dc_correction>
+    <automatic_center>True</automatic_center>
+    <bandwidth>2000000.0</bandwidth>
+    <bias_tee_enabled>False</bias_tee_enabled>
+    <bits_per_symbol>1</bits_per_symbol>
+    <center>0</center>
+    <center_spacing>1</center_spacing>
+    <decoding_name>Non Return To Zero (NRZ)</decoding_name>
+    <freq_correction>1</freq_correction>
+    <frequency>433920000.0</frequency>
+    <modulation_type>PSK</modulation_type>
+    <name>HackRF</name>
+    <noise>2.136028164608323</noise>
+    <num_sending_repeats>0</num_sending_repeats>
+    <rx_antenna_index>-1</rx_antenna_index>
+    <rx_baseband_gain>14</rx_baseband_gain>
+    <rx_gain>0</rx_gain>
+    <rx_if_gain>16</rx_if_gain>
+    <sample_rate>2000000.0</sample_rate>
+    <samples_per_symbol>256</samples_per_symbol>
+    <tolerance>5</tolerance>
+    <tx_antenna_index>-1</tx_antenna_index>
+    <tx_baseband_gain>16</tx_baseband_gain>
+    <tx_gain>0</tx_gain>
+    <tx_if_gain>23</tx_if_gain>
+  </device_conf>
+  <simulator_rx_conf/>
+  <simulator_tx_conf/>
+  <signal name="BBD_0000_converted" filename="BBD_0000_converted.C16" samples_per_symbol="256" center="0" center_spacing="1" tolerance="5" noise_threshold="0.0167" noise_minimum="-0.011808683245815342" noise_maximum="0.011808683245815342" modulation_type="PSK" sample_rate="2000000.0" pause_threshold="8" message_length_divisor="1" bits_per_symbol="1" costas_loop_bandwidth="0.1">
+    <messages/>
+  </signal>
+  <open_file name="BBD_0000_converted.C16" position="0"/>
+  <signal name="BBD_0001_converted" filename="BBD_0001_converted.C16" samples_per_symbol="256" center="0" center_spacing="1" tolerance="5" noise_threshold="0.0175" noise_minimum="-0.012374368670764581" noise_maximum="0.012374368670764581" modulation_type="PSK" sample_rate="2000000.0" pause_threshold="8" message_length_divisor="1" bits_per_symbol="1" costas_loop_bandwidth="0.1">
+    <messages/>
+  </signal>
+  <open_file name="BBD_0001_converted.C16" position="1"/>
+  <signal name="BBD_0003_converted" filename="BBD_0003_converted.C16" samples_per_symbol="256" center="0" center_spacing="1" tolerance="5" noise_threshold="0.0166" noise_minimum="-0.011737972567696688" noise_maximum="0.011737972567696688" modulation_type="PSK" sample_rate="2000000.0" pause_threshold="8" message_length_divisor="1" bits_per_symbol="1" costas_loop_bandwidth="0.1">
+    <messages/>
+  </signal>
+  <open_file name="BBD_0003_converted.C16" position="2"/>
+  <signal name="BBD_0004_converted" filename="BBD_0004_converted.C16" samples_per_symbol="256" center="0" center_spacing="1" tolerance="5" noise_threshold="0.017" noise_minimum="-0.012020815280171309" noise_maximum="0.012020815280171309" modulation_type="PSK" sample_rate="2000000.0" pause_threshold="8" message_length_divisor="1" bits_per_symbol="1" costas_loop_bandwidth="0.1">
+    <messages/>
+  </signal>
+  <open_file name="BBD_0004_converted.C16" position="3"/>
+  <signal name="BBD_0006_converted" filename="BBD_0006_converted.C16" samples_per_symbol="256" center="0" center_spacing="1" tolerance="5" noise_threshold="0.0178" noise_minimum="-0.012586500705120546" noise_maximum="0.012586500705120546" modulation_type="PSK" sample_rate="2000000.0" pause_threshold="8" message_length_divisor="1" bits_per_symbol="1" costas_loop_bandwidth="0.1">
+    <messages/>
+  </signal>
+  <open_file name="BBD_0006_converted.C16" position="4"/>
+  <signal name="BBD_0010_converted" filename="BBD_0010_converted.C16" samples_per_symbol="256" center="0" center_spacing="1" tolerance="5" noise_threshold="0.0148" noise_minimum="-0.010465180361560904" noise_maximum="0.010465180361560904" modulation_type="PSK" sample_rate="2000000.0" pause_threshold="8" message_length_divisor="1" bits_per_symbol="1" costas_loop_bandwidth="0.1">
+    <messages/>
+  </signal>
+  <open_file name="BBD_0010_converted.C16" position="5"/>
+  <signal name="BBD_0011_converted" filename="BBD_0011_converted.C16" samples_per_symbol="256" center="0" center_spacing="1" tolerance="5" noise_threshold="0.0133" noise_minimum="-0.009404520189781081" noise_maximum="0.009404520189781081" modulation_type="PSK" sample_rate="2000000.0" pause_threshold="8" message_length_divisor="1" bits_per_symbol="1" costas_loop_bandwidth="0.1">
+    <messages/>
+  </signal>
+  <open_file name="BBD_0011_converted.C16" position="6"/>
+  <signal name="BBD_0013_converted" filename="BBD_0013_converted.C16" samples_per_symbol="256" center="0" center_spacing="1" tolerance="5" noise_threshold="0.0146" noise_minimum="-0.010323759005323594" noise_maximum="0.010323759005323594" modulation_type="PSK" sample_rate="2000000.0" pause_threshold="8" message_length_divisor="1" bits_per_symbol="1" costas_loop_bandwidth="0.1">
+    <messages/>
+  </signal>
+  <open_file name="BBD_0013_converted.C16" position="7"/>
+  <group name="New Group" id="0">
+    <cf_protocol filename="BBD_0000_converted.C16"/>
+    <cf_protocol filename="BBD_0001_converted.C16"/>
+    <cf_protocol filename="BBD_0003_converted.C16"/>
+    <cf_protocol filename="BBD_0004_converted.C16"/>
+    <cf_protocol filename="BBD_0006_converted.C16"/>
+    <cf_protocol filename="BBD_0010_converted.C16"/>
+    <cf_protocol filename="BBD_0011_converted.C16"/>
+    <cf_protocol filename="BBD_0013_converted.C16"/>
+  </group>
+  <protocol>
+    <decodings>
+      <decoding>'Non Return To Zero (NRZ)', </decoding>
+      <decoding>'Non Return To Zero + Invert', 'Invert', </decoding>
+      <decoding>'Manchester I', 'Edge Trigger', </decoding>
+      <decoding>'Manchester II', 'Edge Trigger', 'Invert', </decoding>
+      <decoding>'Differential Manchester', 'Edge Trigger', 'Differential Encoding', </decoding>
+    </decodings>
+    <participants/>
+    <messages>
+      <message message_type_id="a06f579c-7908-4994-bc50-47d23b46dbb3" modulator_index="0" pause="44480" timestamp="1666988288.2963881" decoding_index="1"/>
+      <message message_type_id="a06f579c-7908-4994-bc50-47d23b46dbb3" modulator_index="0" pause="4230" timestamp="1666988327.576278" decoding_index="1"/>
+      <message message_type_id="a06f579c-7908-4994-bc50-47d23b46dbb3" modulator_index="0" pause="1138" timestamp="1666988414.7340002" decoding_index="1"/>
+      <message message_type_id="a06f579c-7908-4994-bc50-47d23b46dbb3" modulator_index="0" pause="3674" timestamp="1666988456.439651" decoding_index="1"/>
+      <message message_type_id="a06f579c-7908-4994-bc50-47d23b46dbb3" modulator_index="0" pause="1066" timestamp="1666988512.171149" decoding_index="1"/>
+      <message message_type_id="a06f579c-7908-4994-bc50-47d23b46dbb3" modulator_index="0" pause="1348" timestamp="1666988561.746902" decoding_index="0"/>
+      <message message_type_id="a06f579c-7908-4994-bc50-47d23b46dbb3" modulator_index="0" pause="0" timestamp="1666988580.580845" decoding_index="1"/>
+      <message message_type_id="a06f579c-7908-4994-bc50-47d23b46dbb3" modulator_index="0" pause="3055" timestamp="1666988611.263754" decoding_index="1"/>
+    </messages>
+    <message_types>
+      <message_type name="Default" id="a06f579c-7908-4994-bc50-47d23b46dbb3" assigned_by_ruleset="0" assigned_by_logic_analyzer="0">
+        <label name="preamble" start="0" end="4" color_index="0" apply_decoding="True" show="2" display_format_index="0" display_bit_order_index="0" display_endianness="big" fuzz_me="2" fuzz_values="" auto_created="True"/>
+        <label name="synchronization" start="4" end="8" color_index="1" apply_decoding="True" show="2" display_format_index="0" display_bit_order_index="0" display_endianness="big" fuzz_me="2" fuzz_values="" auto_created="True"/>
+        <label name="synchronization" start="8" end="12" color_index="4" apply_decoding="True" show="2" display_format_index="0" display_bit_order_index="0" display_endianness="big" fuzz_me="2" fuzz_values="" auto_created="True"/>
+        <label name="sequence number" start="376" end="384" color_index="2" apply_decoding="True" show="2" display_format_index="3" display_bit_order_index="0" display_endianness="big" fuzz_me="2" fuzz_values="" auto_created="True"/>
+        <label name="sequence number" start="776" end="784" color_index="3" apply_decoding="True" show="2" display_format_index="3" display_bit_order_index="0" display_endianness="big" fuzz_me="2" fuzz_values="" auto_created="True"/>
+        <label name="length" start="2024" end="2032" color_index="6" apply_decoding="True" show="2" display_format_index="3" display_bit_order_index="0" display_endianness="big" fuzz_me="2" fuzz_values="" auto_created="False"/>
+        <checksum_label name="checksum" start="2033" end="2049" color_index="5" apply_decoding="True" show="2" display_format_index="1" display_bit_order_index="0" display_endianness="big" fuzz_me="2" fuzz_values="" auto_created="False" data_ranges="[[12, 2033]]" category="generic">
+          <crc polynomial="111010101" start_value="00000000" final_xor="00000000" ref_in="0" ref_out="0"/>
+        </checksum_label>
+        <ruleset mode="0"/>
+      </message_type>
+    </message_types>
+  </protocol>
+  <simulator_config>
+    <items/>
+  </simulator_config>
+</UniversalRadioHackerProject>

@@ -1,7 +1,6 @@
-<?xml version="1.0" ?>
 <UniversalRadioHackerProject description="" collapse_project_tabs="0" modulation_was_edited="0" broadcast_address_hex="ffff">
   <modulators>
-    <modulator carrier_freq_hz="40000.0" carrier_amplitude="1.0" carrier_phase_deg="0.0" samples_per_symbol="100" name="Modulator" gauss_bt="0.5" gauss_filter_width="1.0" sample_rate="None" modulation_type="ASK" index="0" parameters="0.0,100.0" bits_per_symbol="1"/>
+    <modulator carrier_freq_hz="40000.0" carrier_amplitude="1.0" carrier_phase_deg="0.0" samples_per_symbol="100" name="Modulator" gauss_bt="0.5" gauss_filter_width="1.0" sample_rate="None" modulation_type="ASK" index="0" parameters="0.0,100.0" bits_per_symbol="1" />
   </modulators>
   <device_conf>
     <adaptive_noise>False</adaptive_noise>
@@ -31,14 +30,14 @@
     <tx_gain>0</tx_gain>
     <tx_if_gain>23</tx_if_gain>
   </device_conf>
-  <simulator_rx_conf/>
-  <simulator_tx_conf/>
+  <simulator_rx_conf />
+  <simulator_tx_conf />
   <signal name="BBD_0001_converted" filename="BBD_0001_converted.C16" samples_per_symbol="256" center="0" center_spacing="1" tolerance="5" noise_threshold="0.0175" noise_minimum="-0.012374368670764581" noise_maximum="0.012374368670764581" modulation_type="PSK" sample_rate="2000000.0" pause_threshold="8" message_length_divisor="1" bits_per_symbol="1" costas_loop_bandwidth="0.1">
-    <messages/>
-  </signal>
-  <open_file name="BBD_0001_converted.C16" position="0"/>
+    <messages />
+  <messages /></signal>
+  <open_file name="BBD_0001_converted.C16" position="0" />
   <group name="New Group" id="0">
-    <cf_protocol filename="BBD_0001_converted.C16"/>
+    <cf_protocol filename="BBD_0001_converted.C16" />
   </group>
   <protocol>
     <decodings>
@@ -48,17 +47,17 @@
       <decoding>'Manchester II', 'Edge Trigger', 'Invert', </decoding>
       <decoding>'Differential Manchester', 'Edge Trigger', 'Differential Encoding', </decoding>
     </decodings>
-    <participants/>
+    <participants />
     <messages>
-      <message message_type_id="a06f579c-7908-4994-bc50-47d23b46dbb3" modulator_index="0" pause="7009" timestamp="1660436030.810441" decoding_index="0"/>
+      <message message_type_id="a06f579c-7908-4994-bc50-47d23b46dbb3" modulator_index="0" pause="7009" timestamp="1660436030.810441" decoding_index="0" />
     </messages>
     <message_types>
       <message_type name="Default" id="a06f579c-7908-4994-bc50-47d23b46dbb3" assigned_by_ruleset="0" assigned_by_logic_analyzer="0">
-        <ruleset mode="0"/>
+        <ruleset mode="0" />
       </message_type>
     </message_types>
   </protocol>
   <simulator_config>
-    <items/>
+    <items />
   </simulator_config>
 </UniversalRadioHackerProject>
